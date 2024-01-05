@@ -1,30 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Rubik+Glitch&display=swap');
+
 :root {
     --cor-branco: #fff;
     --cor-preto: #000;
 
+    --font-principal: 'Rubik Glitch', system-ui;
 }
 
 body {
     background-image: url(../img/hollowed-boxes.svg);
 }
 
-.container-menu {
+.header-menu {
     background-color: var(--cor-branco);
     width: 100%;
+    height: 100%;
 }
 
 .logo {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container-link__links {
+.header-link__links {
     display: flex;
     justify-content: space-between;
 }
 
-.container-link__item {
+.header-link__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 1em 0;
+}
+
+.header-link__item a {
+    text-decoration: none;
+    color: var(--cor-preto);
+    font-size: 1.2em;
+    font-family: var(--font-principal);
+}
+
+.conainer-search {
     display: flex;
     justify-content: center;
     align-items: center;
