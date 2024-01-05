@@ -1,0 +1,33 @@
+:root {
+    --cor-branco: #fff;
+    --cor-preto: #000;
+
+}
+
+body {
+    background-image: url(../img/hollowed-boxes.svg);
+}
+
+.container-menu {
+    background-color: var(--cor-branco);
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-link__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-link__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
